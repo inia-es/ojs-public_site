@@ -1,0 +1,189 @@
+div {
+	text-align: left;
+	line-height: 140%;
+}
+#content h4 {
+	margin: .75em 1em 0.25em 0em;
+
+	font-family:Verdana,Georgia,'Times New Roman',Times,serif;
+	font-weight: normal;
+	font-size: 1em;
+}
+ul.menu a {
+	font-size: 0.85em;
+	text-transform: uppercase;
+	text-decoration: none;
+	white-space: nowrap;
+}
+#content h4.apartados{ /*linea debajo de los títulos en el resumen */
+	
+	color: #003333;
+	font-weight:bold; 
+	font-size:15px;
+	border-bottom:1px #003300 solid;
+
+}
+#navbar {
+/* 	margin-right: 0; */
+ 	padding-bottom: 0; 
+ 	padding-top: 0; 
+	padding-right: 0;
+ 	padding-left: 0.5em; 
+/*	width: 800px; */ 
+/*	height: 31px;*/
+	border-top: 1px solid #666;	
+	border-bottom: 1px solid #666;
+	margin: 1;
+	margin-color: #cccccc;
+	border-width: 1;
+	border-color: #cccccc;
+	
+}
+/**
+ * Other organizational elements
+ */
+
+ul.menu {
+	margin: 0;
+	padding: 0;
+}
+
+ul.menu li {
+	margin: 0;
+	padding: 0;
+	padding-right: 1.5em;
+	display: inline;
+}
+
+ul.menu li.current {
+	font-weight: bold;
+}
+
+ul.menu a {
+	font-size: 0.85em;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+ul.menu a:link {
+        color: #0000ff;
+/*        font-weight: bold; */
+}
+
+ul.menu a:visited {
+        color: #0000ff;
+/*        font-weight: bold; */
+}
+ p.MsoNormal
+	{margin:0cm;
+}
+/* Normas para los autores a la derecha*/
+
+span.blockNormas a {
+	display: block;
+	padding: 0.5em 0 0.5em 0;
+	font-size: 1.2em; /*11px*/
+	text-transform: uppercase;
+/*	color:#942e2c;  */
+        color:#0000ff;
+ 	font-weight:bold;
+	text-align:left;
+}
+span.blockNormas a:hover {
+	display: block;
+	padding: 0.5em 0 0.5em 0;
+	font-size: 1.2em; /*11px */
+	text-transform: uppercase;
+	background:none;
+	font-weight:bold;
+	text-align:left;
+}
+/* Ampliar Texto */
+ .ampliar { letter-spacing: -1px;
+    text-decoration: none;
+    font-size: 8pt;
+    color: rgb(153, 51, 0);
+    z-index: 0;
+    }
+
+  .ampliar:hover { background-color: transparent;
+    z-index: 50;
+    }
+
+  .ampliar span { border: 1px dashed gray;
+    padding: 5px;
+    visibility: hidden;
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    }
+
+  .ampliar:hover span { border: 1px solid rgb(215, 186, 127);
+    padding: 15px;
+    position: absolute;
+    visibility: visible;
+    top: 20pt;
+    left: 50%;
+    margin-top: 35em;
+    margin-left: -30em;
+    font-weight: normal;
+    line-height: 190%;
+    font-family: Verdana,Geneva,Arial,Helvetica,sans-serif;
+    font-size: 8pt;
+    letter-spacing: 0px;
+    text-align: justify;
+    width: 40em;
+    color: rgb(24, 72, 72);
+    background-color: rgb(222, 237, 233);
+    cursor: text;
+    display: block;
+    }
+    /* modificaciones sidebar.css */
+    #sidebar div.block span.blockTitleIdioma {
+	display: block;
+	padding: 0.5em 0 0.5em 0;
+	font-size: 1.2em;;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	color:#942e2c;
+	font-weight:bold;
+}
+#sidebar div.block span.blocklink {
+	display: block;
+	padding: 0.5em 0 0.5em 0;
+	font-size: 1.0em;;
+	letter-spacing: 0.1em;
+	color:#942e2c;
+	font-weight:bold;
+}
+#sidebar div.block span.blockTitleInterClassica {
+	display: block;
+	padding: 0.4em 0 0.4em 0;
+	font-size: 0.1 em;;
+	
+	text-transform: uppercase;
+	color:#942e2c;
+	
+	text-align:left;
+}
+.idioma_negrita{ /* para poner el idioma en negrita*/
+	font-size:12px;
+	font-weight:bold;
+}
+
+#sidebar div.block span.blockSubtitle {
+	display: block;
+	padding: 0;
+}
+
+#sidebar input.textField, #sidebar select.selectMenu, #sidebar input.button {
+	font-size: 1em;
+}
+
+div.journaldescription {
+	text-align:justify;
+	width:499px;
+	float:left;
+}
+div.homepageizq {
+	margin-left:500px;
+}
