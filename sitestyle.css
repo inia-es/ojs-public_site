@@ -179,7 +179,7 @@ span.blockNormas a:hover {
 	font-size: 1em;
 }
 
-div.journaldescription {
+div#journalDescription {
 	text-align:justify;
 	width:499px;
 	float:left;
